@@ -35,25 +35,25 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código: 
-  return x + y;
+  return x += y;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código: 
-  return x - y;
+  return x -= y;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código: multiplica (x, y)
-  return x * y;
+  return x *= y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código: 
-  return x / y;
+  return x /= y;
 }
 
 function sonIguales(x, y) {
@@ -126,13 +126,13 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return Math.pow (num,2);
+  return Math.pow(num,2); //numero*numero
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return Math.pow(num,3);
+  return Math.pow(num,3); //numero*numero*numero
 }
 
 function elevar(num, exponent) {
