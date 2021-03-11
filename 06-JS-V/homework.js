@@ -32,7 +32,6 @@ function agregarMetodoPrototype(Constructor) {
 	}
 }
 
-
 function agregarStringInvertida() {
   // Agrega un método al prototype de String que devuelva la misma cadena de caracteres, pero invertida.
   // El método debe llamarse "reverse"
